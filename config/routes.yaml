@@ -1,0 +1,10 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+agenda:
+    path: /agenda 
+    controller: App\Controller\AgendaController::index
+
+toiba-fullcalendar: 
+    resource: "@FullCalendarBundle/Resources/config/routing.yaml"
